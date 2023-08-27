@@ -1,0 +1,44 @@
+{
+  "name": "wstun",
+  "version": "0.0.4",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "wstun": "bin/wstun.js"
+  },
+  "files": [
+    "bin",
+    "examples",
+    "lib"
+  ],
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "rimraf ./lib && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.9",
+    "@types/uuid": "^9.0.2",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxihai123/wstunnel.git"
+  },
+  "keywords": [],
+  "author": "xuxihai123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuxihai123/wstunnel/issues"
+  },
+  "homepage": "https://github.com/xuxihai123/wstunnel#readme",
+  "dependencies": {
+    "@types/ws": "^8.5.5",
+    "chalk": "4.x",
+    "commander": "7.x",
+    "ws": "^8.13.0"
+  }
+}
